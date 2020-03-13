@@ -4,6 +4,6 @@ class Teacher < User
 
   
   def teach 
-    Student.knowledge.random 
+    KNOWLEDGE.random 
   end 
 end
