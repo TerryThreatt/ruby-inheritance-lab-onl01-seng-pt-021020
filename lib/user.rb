@@ -9,11 +9,11 @@ class User
   end 
   
   def last_name=(last_name)
-    @last_name = first_name
+    @last_name = last_name
   end 
   
-  def first_name
-    @first_name
+  def last_name
+    @last_name
   end 
 
 end 
