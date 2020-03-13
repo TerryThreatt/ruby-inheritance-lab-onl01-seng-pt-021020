@@ -7,7 +7,7 @@ class Student < User
   
   def learn(new_knowledge)
     @knowledge << new_knowledge
-    @knowledge.random  
+    @knowledge  
   end 
 
 end
